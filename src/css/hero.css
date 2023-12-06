@@ -1,0 +1,9 @@
+.hero-container{
+        padding-top: 72px;
+    padding-bottom: 74px;
+    display: block;
+    overflow: hidden;
+}
+.heroimg{
+    position: static;
+}
