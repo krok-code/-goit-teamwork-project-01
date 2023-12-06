@@ -1,0 +1,83 @@
+:root {
+    --color-logo: #6D8434;
+    --color-text-black: #010101;
+    --color-text-grey: rgba(1, 1, 1, 0.30);
+    --background-color-text: #FAFAFA;
+    --background-color-main: #E8E8E2;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(fonts/NeueMontreal-Regular.ttf), url(fonts/NeueMontreal-Regular.woff);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(fonts/NeueMontreal-Medium.ttf), url(fonts/NeueMontreal-Medium.woff);
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(fonts/NeueMontreal-Light.ttf), url(fonts/NeueMontreal-Light.woff);
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+/*-------------------------------------------------*/
+
+
+.header {
+    background-color: var(--background-color-main);
+
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+
+.header-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    list-style-type: none;
+}
+
+.svg-header {}
+
+.socials-list-footer {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+}
+
+.footer-container {
+    background-color: var(--color-logo);
+    display: block;
+    margin: 0px 0px;
+    padding: 40px 20px 20px 20px;
+}
+
+.socials-list {
+    list-style-type: none;
+    display: none;
+}
+
+.container-footer {
+
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
