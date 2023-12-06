@@ -6,20 +6,25 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./cart-page.css');
+@import url('./discount-products.css');
+@import url('./filters.css');
+@import url('./footer.css');
+@import url('./hero.css');
+@import url('./popular-products.css');
+@import url('./products-list.css');
 
 :root {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --color-logo: #6d8434;
+  --color-black: #010101;
+  --color-cargs-product: rgba(1, 1, 1, 0.3);
+  --main-color: rgba(1, 1, 1, 0.8);
+  --color-filter: rgba(1, 1, 1, 0.5);
+  --background-cards-products: #fafafa;
+  --background-color-main: #e8e8e2;
+  --footer-color: rgba(232, 232, 226, 0.7);
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --text-font: 'NeueMontreal-Regular', sans-serif;
 }
 
 @font-face {
@@ -44,4 +49,8 @@
   font-weight: 300;
   font-display: swap;
   font-style: normal;
+}
+
+body {
+  background-color: #e8e8e2;
 }
