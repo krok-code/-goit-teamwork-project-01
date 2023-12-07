@@ -9,13 +9,19 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.0.5",
-    "glob": "^8.1.0"
+    "glob": "^8.1.0",
+    "vite": "^4.0.5"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "^3.3.2",
+    "sweetalert2": "^11.10.1",
+    "tui-pagination": "^3.4.1",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
-  }
+  },
+  "description": "Этот проект был создан при помощи Vite. Для знакомства и настройки дополнительных возможностей [обратись к документации](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "keywords": []
 }
