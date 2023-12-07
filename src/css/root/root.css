@@ -1,0 +1,23 @@
+:root {
+  --primary-bg-color: #e8e8e2;
+  --title-black-text-color: #010101;
+  --secondary-text-color: #0101014d;
+  --title-white-text-color: #e8e8e2;
+  --primary-bg-green-color: #586f1f;
+  --secondary-bg-green-color: #6d8434;
+  --card-bg-color: #fafafa;
+  --cancel-background: rgba(1, 1, 1, 0.07);
+  --backdrop-background: rgba(1, 1, 1, 0.4);
+  --modal-text: rgba(1, 1, 1, 0.7);
+  --pagination-color: #a3a3a3;
+  --white-color: #fff;
+  --scroll-color: #e8e8e24d;
+  --span-info-color: rgba(1, 1, 1, 0.3);
+  --hero-color: rgba(1, 1, 1, 0.8);
+  --footer-color: rgba(232, 232, 226, 0.6);
+  --footer-second-color: rgba(232, 232, 226, 0.7);
+  --footer-bg-color: rgba(232, 232, 226, 0.2);
+  --footer-border-color: rgba(232, 232, 226, 0.3);
+  --filter-color: rgba(1, 1, 1, 0.5);
+  --body-cart-color: rgba(109, 132, 52, 0.05);
+}
