@@ -14,19 +14,6 @@
 @import url('./popular-products.css');
 @import url('./products-list.css');
 
-:root {
-  --color-logo: #6d8434;
-  --color-black: #010101;
-  --color-cargs-product: rgba(1, 1, 1, 0.3);
-  --main-color: rgba(1, 1, 1, 0.8);
-  --color-filter: rgba(1, 1, 1, 0.5);
-  --background-cards-products: #fafafa;
-  --background-color-main: #e8e8e2;
-  --footer-color: rgba(232, 232, 226, 0.7);
-
-  --text-font: 'NeueMontreal-Regular', sans-serif;
-}
-
 @font-face {
   font-family: 'NeueMontreal-Regular';
   src: url('../fonts/NeueMontreal-Regular.ttf'), format('truetype');
