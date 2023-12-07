@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./filters.css');
 
 :root {
   font-size: 16px;

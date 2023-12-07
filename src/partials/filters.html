@@ -1,0 +1,23 @@
+<section class="filter-section">
+  <p class="text-filter">Filters:</p>
+  <form class="form-search" id="searchForm">
+    <div class="btn-input">
+      <input
+        class="input-search"
+        type="text"
+        id="keyword" 
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search for anything"
+      />
+      <button class="btn-filter" type="submit">
+        <svg class="svg-filter" width="20" height="20">
+          <use href="/src/svg/icons.svg#icon-baseline-search"></use>
+        </svg>
+      </button>
+    </div>
+    <select id="category" name="category"></select>
+    <select id="sorted" name="sorted"></select>
+  </form>
+  <script src="/src/js/filters.js"></script>
+</section>

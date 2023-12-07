@@ -1,0 +1,29 @@
+.input-search{
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+border: 1px solid rgba(1, 1, 1, 0.30);
+}
+.btn-filter{
+background: #fff;
+border: none;
+
+right: 0;
+padding-bottom: 0;
+}
+.svg-filter{
+}
+.form-search{
+ display: flex;
+ gap: 8px;
+}
+.text-filter{
+color: rgba(1, 1, 1, 0.30);
+font-family: Neue Montreal;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+margin-bottom: 8px;
+}
