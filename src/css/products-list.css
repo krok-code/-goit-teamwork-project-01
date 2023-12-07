@@ -1,0 +1,120 @@
+.product-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.product-card {
+  justify-content: center;
+  width: 335px;
+  height: 356px;
+  margin-left: 20px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+
+.product-image {
+  flex-shrink: 0;
+  margin-left: 97px;
+  margin-top: 39px;
+}
+
+.product-name {
+  margin-left: 20px;
+  color: #010101;
+  font-family: Neue Montreal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.product-category {
+  color: #010101;
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 20px;
+}
+
+.label-category {
+  color: rgba(1, 1, 1, 0.3);
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-size {
+  margin-top: -26px;
+  margin-left: 188px;
+  color: #010101;
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.label-size {
+  color: rgba(1, 1, 1, 0.3);
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-popularity {
+  margin-top: -26px;
+  margin-left: 208px;
+  color: #010101;
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.label-popularity {
+  color: rgba(1, 1, 1, 0.3);
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-price {
+  margin-left: 20px;
+  margin-top: 54px;
+  color: #010101;
+  font-family: Neue Montreal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+
+.check-icon {
+  display: none;
+}
+
+.cart-button {
+  position: relative;
+  left: 82%;
+  top: -15%;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: #6d8434;
+}
